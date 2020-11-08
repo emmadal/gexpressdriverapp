@@ -31,7 +31,6 @@
     "angularfire2": "^5.1.2",
     "chart.js": "^2.9.3",
     "cordova-browser": "6.0.0",
-    "cordova-ios": "^5.1.1",
     "cordova-plugin-camera": "^4.1.0",
     "cordova-plugin-device": "2.0.2",
     "cordova-plugin-geolocation": "^4.0.2",
@@ -64,7 +63,8 @@
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
-    "cordova-android": "^8.1.0",
+    "cordova-android": "^9.0.0",
+    "cordova-ios": "^6.1.1",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-ionic-keyboard": "^2.2.0",
     "cordova-plugin-ionic-webview": "^4.2.0",
@@ -103,7 +103,6 @@
     },
     "platforms": [
       "browser",
-      "ios",
       "android"
     ]
   }

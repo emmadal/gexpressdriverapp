@@ -18,7 +18,8 @@ import { OneSignal } from '@ionic-native/onesignal/ngx';
 })
 export class LoginPage implements OnInit {
 
-  login: login = { email: 'driver1@gmail.com', password: 'admin@123' };
+  // login: login = { email: 'driver1@gmail.com', password: 'admin@123' };
+  login: login = { email: '', password: '' };
   submitted = false;
   isLogin: boolean = false;
   constructor(
@@ -31,7 +32,7 @@ export class LoginPage implements OnInit {
   ) {
     const lng = localStorage.getItem('language');
     if (!lng || lng === null) {
-      localStorage.setItem('language', 'en');
+      localStorage.setItem('language', 'fr');
     }
     this.oneSignal.getIds().then((data) => {
       console.log('iddddd', data);

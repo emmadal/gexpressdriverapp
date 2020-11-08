@@ -53,7 +53,7 @@ export class TrackerPage implements OnInit {
   }
   callDriver() {
     // window.open('tel:' + this.phone);
-    window.open('https://api.whatsapp.com/send?phone=91' + this.phone);
+    window.open('https://api.whatsapp.com/send?phone=+242' + this.phone);
   }
   getOrder() {
     this.util.show();
