@@ -20,8 +20,8 @@ export const environment = {
     restKey: "MGUzMzVkNmQtYzc4Ny00YzI3LTk1ZTMtMTUxNWQ2OTFmNmU3",
   },
   general: {
-    symbol: "$",
-    code: "USD",
+    symbol: "GNF",
+    code: "GNF",
   },
 };
 
